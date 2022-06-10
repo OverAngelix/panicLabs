@@ -2,3 +2,4 @@
 .vsconfig
 Logs/
 Temp/
+obj/Debug
