@@ -3,7 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Vent
+  - RedLab
+  - BlueLab
+  - YellowLab
+  - ChangeColor
+  - ChangePattern
+  - ChangeForm
+  - RPB
+  - RSB
+  - RPS
+  - RSS
+  - BPB
+  - BSB
+  - BPS
+  - BSS
   layers:
   - Default
   - TransparentFX

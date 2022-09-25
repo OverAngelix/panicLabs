@@ -9,13 +9,17 @@ public class CardPositionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < listSpawnCards.Count; i++)
+        bool IsCorrectlyShuffle = true;
+        while (IsCorrectlyShuffle)
         {
-            GameObject temp = listSpawnCards[i];
-            int randomIndex = Random.Range(i, listSpawnCards.Count);
-            listSpawnCards[i] = listSpawnCards[randomIndex];
-            listSpawnCards[randomIndex] = temp;
+            listCards = shuffleCards(listCards);
+            for (int i = 0; i < listSpawnCards.Count; i++)
+            {
+                listCards[i].transform.position = listSpawnCards[i].transform.position;
+            }
         }
+        //ITERE POUR L4ORDRE DES CARTES
+
     }
 
     // Update is called once per frame
@@ -23,7 +27,24 @@ public class CardPositionScript : MonoBehaviour
     {
         for (int i = 0; i < listSpawnCards.Count; i++)
         {
-            listCards[i].transform.position = listSpawnCards[i].transform.position;
+            
         }
     }
+
+
+    private List<GameObject> shuffleCards(List<GameObject> listCards)
+    {
+        List<GameObject> shuffleList = new List<GameObject>();
+
+        for (int i = 0; i < listCards.Count; i++)
+        {
+            GameObject temp = listCards[i];
+            int randomIndex = Random.Range(i, listCards.Count);
+            listCards[i] = listCards[randomIndex];
+            listCards[randomIndex] = temp;
+            shuffleList.Add(listCards[i]);
+        }
+        return shuffleList;
+    }
+
 }
