@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 80698352}
   m_Layer: 0
   m_Name: card (10)
-  m_TagString: Untagged
+  m_TagString: BSB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,9 +309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -1568770888853308491, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 31203930863153082, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: 4655637213199958304, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 1518125921725964202, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 3859013826610299003, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -3215145922379523789, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &80698352
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 213480507}
   m_Layer: 0
   m_Name: card (17)
-  m_TagString: Untagged
+  m_TagString: ChangeForm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,9 +464,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -7805366784138566209, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 6348041177296936616, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -3598076251897715282, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 3719264773431403132, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 431148706870395929, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 5503394409419939884, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &213480507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 367757718}
   m_Layer: 0
   m_Name: card (19)
-  m_TagString: Untagged
+  m_TagString: RedLab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -932,9 +932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -3726357527661231424, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 8869790790614368374, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -6581779395879693164, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 5931259077659232511, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 6344848503043572250, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -7041398901434674920, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &367757718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1061,7 +1061,7 @@ GameObject:
   - component: {fileID: 430862245}
   m_Layer: 0
   m_Name: card (18)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,9 +1143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -7805366784138566209, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 6348041177296936616, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -3598076251897715282, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -1568770888853308491, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 31203930863153082, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 4655637213199958304, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &430862245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 435062043}
   m_Layer: 0
   m_Name: card (12)
-  m_TagString: Untagged
+  m_TagString: BSS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1268,9 +1268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 3732419853484398786, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: -3115551502217408915, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -1986666658581022833, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -7805366784138566209, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3598076251897715282, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 6348041177296936616, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &435062043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 593968793}
   m_Layer: 0
   m_Name: card (7)
-  m_TagString: Untagged
+  m_TagString: RPS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1506,9 +1506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 3719264773431403132, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 431148706870395929, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: 5503394409419939884, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -3590933651930943275, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 5596887622895353670, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 6811526805757466353, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &593968793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1691,7 +1691,7 @@ GameObject:
   - component: {fileID: 697056218}
   m_Layer: 0
   m_Name: card (1)
-  m_TagString: Untagged
+  m_TagString: RPB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1846,7 +1846,7 @@ GameObject:
   - component: {fileID: 745894430}
   m_Layer: 0
   m_Name: card (6)
-  m_TagString: Untagged
+  m_TagString: RPS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1928,9 +1928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -1536504144227078644, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 7217156165901510645, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -2332506889783477926, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -3590933651930943275, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 5596887622895353670, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 6811526805757466353, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &745894430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2031,7 +2031,7 @@ GameObject:
   - component: {fileID: 795504447}
   m_Layer: 0
   m_Name: card (2)
-  m_TagString: Untagged
+  m_TagString: RSB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2156,7 +2156,7 @@ GameObject:
   - component: {fileID: 978311661}
   m_Layer: 0
   m_Name: card (3)
-  m_TagString: Untagged
+  m_TagString: RSB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2311,7 +2311,7 @@ GameObject:
   - component: {fileID: 1086743744}
   m_Layer: 0
   m_Name: card (11)
-  m_TagString: Untagged
+  m_TagString: BSB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2393,9 +2393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 3732419853484398786, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: -3115551502217408915, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -1986666658581022833, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 1518125921725964202, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 3859013826610299003, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -3215145922379523789, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1086743744
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2436,7 +2436,7 @@ GameObject:
   - component: {fileID: 1145774055}
   m_Layer: 0
   m_Name: card (15)
-  m_TagString: Untagged
+  m_TagString: BPS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2518,9 +2518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 1518125921725964202, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 3859013826610299003, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -3215145922379523789, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -6209060177691441426, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3006114898588379401, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -196595716903933110, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1145774055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2561,7 +2561,7 @@ GameObject:
   - component: {fileID: 1179149905}
   m_Layer: 0
   m_Name: card (23)
-  m_TagString: Untagged
+  m_TagString: Vent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2686,7 +2686,7 @@ GameObject:
   - component: {fileID: 1259854832}
   m_Layer: 0
   m_Name: card
-  m_TagString: Untagged
+  m_TagString: RPB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2811,7 +2811,7 @@ GameObject:
   - component: {fileID: 1292729845}
   m_Layer: 0
   m_Name: card (5)
-  m_TagString: Untagged
+  m_TagString: RSS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2996,7 +2996,7 @@ GameObject:
   - component: {fileID: 1403791245}
   m_Layer: 0
   m_Name: card (8)
-  m_TagString: Untagged
+  m_TagString: BPB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3078,9 +3078,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -3590933651930943275, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 5596887622895353670, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: 6811526805757466353, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 3732419853484398786, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3115551502217408915, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -1986666658581022833, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1403791245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3451,7 +3451,7 @@ GameObject:
   - component: {fileID: 1520690259}
   m_Layer: 0
   m_Name: card (13)
-  m_TagString: Untagged
+  m_TagString: BSS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3533,9 +3533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 5931259077659232511, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 6344848503043572250, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -7041398901434674920, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -7805366784138566209, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3598076251897715282, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 6348041177296936616, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1520690259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3679,7 +3679,7 @@ GameObject:
   - component: {fileID: 1627747157}
   m_Layer: 0
   m_Name: card (9)
-  m_TagString: Untagged
+  m_TagString: BPB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3761,9 +3761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -3590933651930943275, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 5596887622895353670, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: 6811526805757466353, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 3732419853484398786, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3115551502217408915, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -1986666658581022833, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1627747157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3804,7 +3804,7 @@ GameObject:
   - component: {fileID: 1675696123}
   m_Layer: 0
   m_Name: card (14)
-  m_TagString: Untagged
+  m_TagString: BPS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3886,9 +3886,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 1518125921725964202, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 3859013826610299003, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -3215145922379523789, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -6209060177691441426, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3006114898588379401, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -196595716903933110, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1675696123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4097,7 +4097,7 @@ GameObject:
   - component: {fileID: 1760278149}
   m_Layer: 0
   m_Name: card (4)
-  m_TagString: Untagged
+  m_TagString: RSS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4179,9 +4179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 8514187478308310020, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: -3052363749996800177, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -3546172907551160150, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -1536504144227078644, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 7217156165901510645, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -2332506889783477926, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1760278149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4222,7 +4222,7 @@ GameObject:
   - component: {fileID: 1799277527}
   m_Layer: 0
   m_Name: card (20)
-  m_TagString: Untagged
+  m_TagString: BlueLab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4304,9 +4304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -6209060177691441426, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: -3006114898588379401, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -196595716903933110, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 817909939406260171, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 670461539798705038, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: 6955638332424675969, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1799277527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4437,7 +4437,7 @@ GameObject:
   - component: {fileID: 1937375737}
   m_Layer: 0
   m_Name: card (21)
-  m_TagString: Untagged
+  m_TagString: YellowLab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4519,9 +4519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: -6209060177691441426, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: -3006114898588379401, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: -196595716903933110, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: -3726357527661231424, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: 8869790790614368374, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -6581779395879693164, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &1937375737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4592,7 +4592,7 @@ GameObject:
   - component: {fileID: 2015944975}
   m_Layer: 0
   m_Name: card (16)
-  m_TagString: Untagged
+  m_TagString: ChangePattern
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4674,9 +4674,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a2613c85c1c3243a26e966c4c3e84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 817909939406260171, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  selected: {fileID: 670461539798705038, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
-  hover: {fileID: 6955638332424675969, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  start: {fileID: 8514187478308310020, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  selected: {fileID: -3052363749996800177, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
+  hover: {fileID: -3546172907551160150, guid: 435a102ff46a1494c808651cd76c032a, type: 3}
 --- !u!61 &2015944975
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4717,7 +4717,7 @@ GameObject:
   - component: {fileID: 2120103480}
   m_Layer: 0
   m_Name: card (22)
-  m_TagString: Untagged
+  m_TagString: Vent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7E8C552B-CDCD-9C00-A24B-E2BCE952B4FE}</ProjectGuid>
+    <ProjectGuid>{92E12B4E-041C-C4CA-388F-23A6F2370B9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,10 +53,10 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DiceLauncher.cs" />
     <Compile Include="Assets\Scripts\GameInformation.cs" />
     <Compile Include="Assets\Scripts\CardAction.cs" />
     <Compile Include="Assets\Scripts\CardPositionScript.cs" />
-    <Compile Include="Assets\Scripts\DiceLauncher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
