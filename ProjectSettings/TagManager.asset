@@ -5,12 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Vent
-  - RedLab
-  - BlueLab
-  - YellowLab
-  - ChangeColor
-  - ChangePattern
-  - ChangeForm
   - RPB
   - RSB
   - RPS
@@ -19,6 +13,8 @@ TagManager:
   - BSB
   - BPS
   - BSS
+  - Mutation
+  - Lab
   layers:
   - Default
   - TransparentFX

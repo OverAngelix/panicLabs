@@ -9,14 +9,17 @@ public class CardPositionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       // while (IsCorrectlyShuffle)
-       // {
+        do
+        {
             listCards = shuffleCards(listCards);
             for (int i = 0; i < listSpawnCards.Count; i++)
             {
                 listCards[i].transform.position = listSpawnCards[i].transform.position;
+                listCards[i].transform.rotation = listSpawnCards[i].transform.rotation;
+
             }
-        IsCorrectlyShuffle(listCards);
+        } while (IsNotCorrectlyShuffle());
+        GameInformation.listCards = listCards;
     }
 
     // Update is called once per frame
@@ -41,72 +44,73 @@ public class CardPositionScript : MonoBehaviour
     }
 
 
-    private bool IsCorrectlyShuffle(List<GameObject> listCards)
+    private bool IsNotCorrectlyShuffle()
     {
         for (int i = 0; i < listCards.Count; i++)
         {
-            //SI LABS
-            //SI VENTS
-            //SI CHANGES
-
-
-            if (getElement(listCards, i).tag=="RedLab" || getElement(listCards, i).tag == "BlueLab" || getElement(listCards, i).tag == "YellowLab")
+            if (getElement(i).tag == "Lab" && getNextElement(i, true).tag == "Lab")
             {
-                if (getPreviousElement(listCards, i, true).tag == "RedLab" || getPreviousElement(listCards, i, true).tag == "BlueLab" || getPreviousElement(listCards, i, true).tag == "YellowLab" || getNextElement(listCards, i, true).tag == "RedLab" || getNextElement(listCards, i, true).tag == "BlueLab" || getNextElement(listCards, i, true).tag == "YellowLab")
-                {
-                    print("Coucouy");
-                }
-            }
-           /* if (getElement(listCards, i).tag == "ChangeColor" || getElement(listCards, i).tag == "ChangeForm" || getElement(listCards, i).tag == "ChangePattern")
-            {
-
-            }*/
-
-
-
-            if (getElement(listCards,i).tag == getNextElement(listCards, i,true).tag)
-            {
-                print("Blob");
-            }
-            if (getElement(listCards, i).tag == getPreviousElement(listCards, i, true).tag)
-            {
-                print("Blob2");
+                return true;
             }
 
+            if (getElement(i).tag == "Mutation" && getNextElement(i, true).tag == "Mutation")
+            {
+                return true;
+            }
+
+            if (getElement(i).tag == "Vent" && getNextElement(i, true).tag == "Vent")
+            {
+                return true;
+            }
+
+            //Rajouter cas si besoin
         }
-        return true;
+        return false;
     }
 
 
-    private GameObject getElement(List<GameObject> listCards,int idx)
+    public GameObject getElement(int idx)
     {
         return listCards[(idx + 25) % 25];
     }
 
     //sens true => sens horaire //sens false => sens anti-horaire
-    private GameObject getNextElement(List<GameObject> listCards, int idx, bool sens)
+    public GameObject getNextElement(int idx, bool sens)
+    {
+        return listCards[getNextIdx(idx, sens)];
+    }
+
+    public int getNextIdx(int idx, bool sens)
     {
         if (sens)
         {
-            return listCards[(idx + 26) % 25];
+            return (idx + 26) % 25;
         }
         else
         {
-            return listCards[(idx + 24) % 25];
+            return (idx + 24) % 25;
         }
     }
 
-    private GameObject getPreviousElement(List<GameObject> listCards, int idx, bool sens)
+    public int searchCard(string name)
     {
-        if (sens)
+        for (int i = 0; i < listCards.Count; i++)
         {
-            return listCards[(idx + 24) % 25];
+            if (getElement(i).name == name)
+            {
+                return i;
+            }
         }
-        else
-        {
-            return listCards[(idx + 26) % 25];
-        }
+        return -1;
     }
 
-    //REGEX sur les libelles pour correspondance;
+    public int searchNextVent(int index, bool sens)
+    {
+        do
+        {
+            index = getNextIdx(index, sens);
+        } while (getElement(index).tag != "Vent");
+        return index;
+    }
+
 }

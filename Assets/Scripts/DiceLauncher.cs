@@ -17,22 +17,18 @@ public class DiceLauncher : MonoBehaviour
         if (typeDice == "FORM")
         {
             FormLaunch();
-            Debug.Log(GameInformation.form);
         }
         if (typeDice == "COLOR")
         {
             ColorLaunch();
-            Debug.Log(GameInformation.color);
         }
         if (typeDice == "PATTERN")
         {
             PatternLaunch();
-            Debug.Log(GameInformation.pattern);
         }
         else if (typeDice == "LAB")
         {
             Labaunch();
-            Debug.Log(GameInformation.lab);
         }
     }
 
@@ -40,11 +36,13 @@ public class DiceLauncher : MonoBehaviour
     {
         if (indexDice == 0 || indexDice == 2 || indexDice == 4)
         {
-            GameInformation.form = "ALIEN";
+            //BLOB
+            GameInformation.form = 'B';
         }
         else if (indexDice == 1 || indexDice == 3 || indexDice == 5)
         {
-            GameInformation.form = "SNAIL";
+            //SNAIL
+            GameInformation.form = 'S';
         }
     }
 
@@ -52,11 +50,13 @@ public class DiceLauncher : MonoBehaviour
     {
         if (indexDice == 0 || indexDice == 2 || indexDice == 4)
         {
-            GameInformation.pattern = "STRIP";
+            //STRIPE
+            GameInformation.pattern = 'S';
         }
         else if (indexDice == 1 || indexDice == 3 || indexDice == 5)
         {
-            GameInformation.pattern = "POINT";
+            //POINT
+            GameInformation.pattern = 'P';
         }
     }
 
@@ -64,11 +64,13 @@ public class DiceLauncher : MonoBehaviour
     {
         if (indexDice == 0 || indexDice == 2 || indexDice == 4)
         {
-            GameInformation.color = "BLUE";
+            //BLUE
+            GameInformation.color = 'B';
         }
         else if (indexDice == 1 || indexDice == 3 || indexDice == 5)
         {
-            GameInformation.color = "RED";
+            //RED
+            GameInformation.color = 'R';
         }
     }
 
@@ -77,22 +79,22 @@ public class DiceLauncher : MonoBehaviour
         switch (indexDice)
         {
             case 0:
-                GameInformation.lab = "BLL";
+                GameInformation.lab = "BL";
                 break;
             case 1:
-                GameInformation.lab = "RDL";
+                GameInformation.lab = "RD";
                 break;
             case 2:
-                GameInformation.lab = "YDL";
+                GameInformation.lab = "YD";
                 break;
             case 3:
-                GameInformation.lab = "BDL";
+                GameInformation.lab = "BD";
                 break;
             case 4:
-                GameInformation.lab = "RLL";
+                GameInformation.lab = "RL";
                 break;
             case 5:
-                GameInformation.lab = "YLL";
+                GameInformation.lab = "YL";
                 break;
             default:
                 print("Incorrect intelligence level.");

@@ -53,6 +53,7 @@ public class CardAction : MonoBehaviour
             spriteRenderer.sprite = selected;
             isSelected = !isSelected;
             GameInformation.isPlayed = !GameInformation.isPlayed;
+            GameInformation.cardSelected = this.name;
         }
         else if (isSelected == true && GameInformation.isPlayed == true)
         {
